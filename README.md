@@ -11,10 +11,10 @@ LeakyReLU Activation: This is the activation introduced in all convolutional and
 Input Layer: Architecture takes images as input with a shape of (224, 224, 3).
 
 Convolutional Blocks and Residual Connections:
+- Block 1 contains two Conv2D layers with 64 filters, followed by a MaxPooling layer.
+- Block 2 contains two Conv2D layers with 128 filters, followed by a MaxPooling layer.
+- Block 3-5 each contain a residual connection from the output of a Conv2D layer with 128 filters added back to the block input. Each block also ends with a MaxPooling layer.
 
-Block 1 contains two Conv2D layers with 64 filters, followed by a MaxPooling layer.
-Block 2 contains two Conv2D layers with 128 filters, followed by a MaxPooling layer.
-Block 3-5 each contain a residual connection from the output of a Conv2D layer with 128 filters added back to the block input. Each block also ends with a MaxPooling layer.
 Fully Connected Layers: After flattening the output, two dense layers of 256 and 128 neurons were added along with LeakyReLU activation.
 
 Output Layer: AQI, PM2.5, PM10, O3, and NO2 predictions were done through different output layers, each consisting of one neuron and linear activation.
