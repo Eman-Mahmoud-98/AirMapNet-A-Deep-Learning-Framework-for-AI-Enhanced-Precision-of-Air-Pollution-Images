@@ -1,6 +1,8 @@
 # AirMapNet-A-Deep-Learning-Framework-for-AI-Enhanced-Precision-of-Air-Pollution-Images
 I have provided the developed CNN model (AirMapNet) for future research.
 
+<img width="823" alt="Screenshot 2024-10-27 at 2 10 07 PM" src="https://github.com/user-attachments/assets/053b6d0d-b72d-43e3-a4a9-4ffafbfeb59f">
+
 The proposed model architecture is defined to predict multiple output values, namely AQI, PM2.5, PM10, O3, and NO2, simultaneously. The key components are described below.
 
 LeakyReLU Activation: This is the activation introduced in all convolutional and dense layers; it may avoid some problems, like the "dying ReLU" problem since it allows a small, non-zero gradient when the input is negative.
