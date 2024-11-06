@@ -1,5 +1,4 @@
-# AirMapNet-A-Deep-Learning-Framework-for-AI-Enhanced-Precision-of-Air-Pollution-Images
-
+# AirMapNet: Smart Air Pollution Mapping Using Deep Learning
 <img width="850" alt="Screenshot 2024-11-02 at 9 58 32 PM" src="https://github.com/user-attachments/assets/7d7ac808-5bc5-41a0-918b-24177d518c77">
 
 
